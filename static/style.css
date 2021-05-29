@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    background: #f24141;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    color: white;
+}
+
+#logo img{
+    height: 30px;
+    filter: invert(1);
+}
+
+.navigation{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+li{
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+li a:hover{
+    color:black;
+
+}
+
+.picture{
+    height: 350px;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.picture h2{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.picture h4{
+    font-size: 1.5rem;
+}
+
+.mission{
+    height: 350px;
+    margin-top: 10px;
+}
+
+.mission h2{
+    text-align: center;
+    margin-top: 24px;
+
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    width: 20%;
+    margin: 69px 97px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.card h3{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 7px;
+    text-decoration: underline;
+}
+
+.card-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.img{
+    height:90px;
+}
+
+.img img{
+    height: inherit;
+    padding-right: 18px;
+    padding-left: 4px;
+}
+
+#sponsors{
+    height: 320px;
+    background-color: #d5aaaa65;
+}
+
+#sponsors h2{
+    text-align: center;
+    padding-top:10px;
+}
+
+#simg{
+    height:330px;
+    margin-left: 50px;
+
+}
+#simg img{
+    height: 80%;
+    margin: 10px;
+}
+
+footer{
+    height: 46px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

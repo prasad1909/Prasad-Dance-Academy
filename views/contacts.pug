@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasad Dance Academy</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/contact.css">
+</head>
+<body>
+    <nav class="navbar">  
+        <ul class="navigation">
+            <div id="logo">
+                <img src="/static/img/logo.png" alt="logo">
+                <p>PDA</p>
+            </div>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Class Info</a></li>
+            <li><a href="/contacts">Contact Us</a></li>
+        </ul>
+    </nav>
+    <h1>Contact Form</h1>
+    <div class="form-container">
+        <form action="/contacts" method="POST">
+        <input type="text" name="name" placeholder="Enter your name">
+        <input type="email" name="email" placeholder="Enter your email id">
+        <input type="phone" name="phone" placeholder="Enter your phone number">
+        <input type="text" name="address" placeholder="Enter your address">
+        <input type="text" name="desc" placeholder="Enter more info">
+        <button class="btn">Submit</button>
+    </form>
+    </div>
+
+    <footer>
+        | Copyright 2021 &copy; PrasadDanceAcademy.com
+    </footer>
+</body>
+</html>

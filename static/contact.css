@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+input{
+    display: block;
+    margin: 15px 0px;
+    padding: 6px 6px;
+    outline: none;
+    border: 2px solid black;
+    width: 340px;
+    border-radius: 5px;
+}
+
+footer{
+    margin-top:250px;
+}
+
+.btn{
+    padding: 5px 15px;
+    margin: 6px 146px;
+    cursor: pointer;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 6px;
+    background: #f24141;
+    color: white;
+}
